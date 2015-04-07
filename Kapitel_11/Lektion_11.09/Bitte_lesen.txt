@@ -1,0 +1,18 @@
+Um das Beispielprojekt zu starten,
+
+* benötigen Sie eine Homepage sowie
+* ein Google-Cast-fähiges Gerät (z.B. einen Chromecast) und
+* müssen $5 Registrierungsgebühr zahlen.
+
+
+* Laden Sie die Datei "index.html" auf ein Unterverzeichnis Ihrer Homepage
+  hoch.
+* Schalten Sie die Benutzung von https://cast.google.com/publish/ für Sie frei.
+* Registrieren Sie das Unterverzeichnis Ihrer Homepage als "Application".
+* Registrieren Sie Ihr Google Cast Gerät unter "Devices".
+* Kopieren Sie die generierte Application ID in Zeile 37 der Datei 
+  MeineCastDemo\app\src\main\java\de\predic8\meinecastdemo\MainActivity.java ,
+  in die CAST_APP_ID Konstante.
+
+Die Registrierung Ihres Chromecasts als Testgerät dauert ein paar Minuten.
+Nach einem Neustart des Chromecasts hat die Demo dann funktioniert.

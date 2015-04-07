@@ -1,0 +1,8 @@
+Damit die Kartenanwendung funktioniert, muss die Anbindung an die Google
+Developer Console konfiguriert werden:
+
+Unter https://console.developers.google.com/project können Sie 
+* ein neues Projekt anlegen,
+* das "Google Maps Android API v2" freischalten und
+* einen Android API Key generieren lassen, den Sie in Zeile 39 von
+  MeineKartenAnwendung\app\src\main\AndroidManifest.xml hinterlegen.

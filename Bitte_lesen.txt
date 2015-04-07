@@ -1,0 +1,31 @@
+Dieses Übungsmaterial finden Sie auch online unter
+	
+	https://github.com/membrane/android5training
+
+Eventuell finden Sie dort auch Bugfixes und aktuelle Kommentare zu den
+Projekten. Unter "releases" werden regelmäßig aktuelle ZIP-Archive zum
+download angeboten. Alternativ können Sie auch mit Git (verfügbar unter http://git-scm.com/downloads ) 
+die allerletzte Version der Dateien von Github herunterladen.
+	
+-------------------------------------------------------------------------------
+
+
+Um Projekte zu öffnen, kopieren Sie den Projektordner auf Ihre Festplatte.
+Starten Sie Android Studio, wählen Sie "Datei", "Öffnen..." und öffnen Sie die
+"settings.gradle" Datei des Projekts.
+Im "Projekt von Gradle importieren" Dialog wählen Sie dann einfach "OK". 
+
+-------------------------------------------------------------------------------
+
+Beim Öffnen der Projekte erhält man z.B. die Meldung
+
+	The path
+	'C:\Users\studio1\AppData\Local\Android\sdk'
+	does not refer to an Android SDK.
+
+	Android Studio will use its default SDK instead:
+	'C:\work\programs\android-sdk\sdk'
+	and will modify the project's local.properties file.
+	
+Das ist in Ordnung. Es zeigt an, dass das Android SDK unter einem anderen Pfad
+installiert ist, als auf dem Rechner, auf dem ich das Projekt entwickelt habe.

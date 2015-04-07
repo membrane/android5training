@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Meine Begruessungs Anwendung</string>
+
+    <string name="explanation">Bitte geben Sie Ihren Namen ein und klicken Sie auf OK.</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,15 @@
+Um die "In App Billing" Demo nachzuvollziehen:
+
+* Ändern Sie den packageName der App ab. (Ich habe den packageName 
+  "de.predic8.meineinappbillingdemo" bereits selbst im Play Store registriert.)
+* Veröffentlichen Sie Ihre Kopie der App.
+* Registrieren sie einen "managed product" In-App-Billing Artikel mit der ID "my_item".
+* Warten Sie die ab, bis App und Artikel veröffentlicht sind.
+
+* Installieren Sie die App auf einem Gerät, auf dem ein anderer Google Account
+  hinterlegt ist als der, der die App veröffentlicht hat.
+  
+* Starten Sie die App und wählen Sie "Kaufen".
+
+Bitte beachten Sie: Dabei entsteht eine echte Transaktion. Google behält etwa 30%
+des bezahlten Preises.

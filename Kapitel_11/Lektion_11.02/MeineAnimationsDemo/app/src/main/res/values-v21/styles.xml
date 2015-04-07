@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/keep_image</item>
+        <item name="android:windowSharedElementExitTransition">@transition/keep_image</item>
+
+    </style>
+</resources>

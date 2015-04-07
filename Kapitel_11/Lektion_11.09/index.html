@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cast Demo</title>
+<script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<style>
+div {
+	font-size: 20pt;
+	color:white;
+}
+</style>
+</head>
+<body>
+	<div>Test</div>
+	<div id="content">
+	Cast Demo.
+	</div>
+  <script>
+	window.mediaElement = document.getElementById('media');
+	window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+	window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+		window.castReceiverManager.onSenderDisconnected = function(event) {
+		if(window.castReceiverManager.getSenders().length == 0 &&
+					event.reason == cast.receiver.system.DisconnectReason.REQUESTED_BY_SENDER) {
+			window.close();
+		}
+	}
+	var customMessageBus = window.castReceiverManager.getCastMessageBus('urn:x-cast:de.predic8.meinecastdemo');
+	customMessageBus.onMessage = function(event) {
+		$('#content').text(JSON.stringify(event));
+	}
+	window.castReceiverManager.start();
+  </script>
+
+</body>
+</html>

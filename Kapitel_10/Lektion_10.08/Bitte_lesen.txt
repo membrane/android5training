@@ -1,0 +1,2 @@
+Die Anwendung "MeineContentProviderAnwendung" sollte vor
+"MeineContentResolverAnwendung" installiert werden.

@@ -1,0 +1,16 @@
+Um die Nachrichten nachvollziehen zu können, die die App an Google Analytics
+sendet, gehen Sie bitte wie folgt vor:
+
+* Legen Sie auf https://www.google.com/analytics/web/ ein neues Konto an.
+  (Das neue Konto hat standardmäßig ein Property "Website".)
+* Legen Sie ein neues Property an. Wählen Sie "Mobile App".
+* Tragen Sie die Tracking ID des neuen Properties in Zeile 15 von
+  
+  MeineGoogleAnalyticsDemo\app\src\main\java\de\predic8
+    \meinegoogleanalyticsdemo\MyApplication.java
+	
+  ein.
+  
+* Starten Sie die App und starten Sie Activity2.
+
+* Nach einiger Zeit meldet Google Analytics das registrierte Benutzerverhalten.
